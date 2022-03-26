@@ -1,6 +1,11 @@
 import React from 'react'
 import "./style.css"
 
+interface Props {
+  todo: string;
+  setTodo: React.Dispatch<React.SetStateAction<string>>
+}
+
 const InputFeild = ({todo, setTodo}) => {
   return (
     <form className='input'>
