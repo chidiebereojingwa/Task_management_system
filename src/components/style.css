@@ -44,6 +44,13 @@
     box-shadow: 0 0 5px black;
   }
 
+  .todos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+  }  
+
   .todos__single {
     display: flex;
     width: 29.5%;
